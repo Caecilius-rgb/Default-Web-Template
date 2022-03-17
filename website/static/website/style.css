@@ -1,0 +1,43 @@
+body {
+background-color: #363a3e;
+color: white;
+margin:0;
+}
+.topnav {
+background-color: #f04448;
+overflow: hidden;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: black;
+text-align: center;
+padding: 15px 19px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ff3105;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #FF5733;
+color: black;
+}
+.navtest {
+padding: 16px;
+margin-top: 30px;
+height: 1500px; /* Used in this example to enable scrolling */
+}
+.maintext {
+text-align: center;
+padding: 150px;
+}
