@@ -2,6 +2,8 @@ body {
 background-color: #363a3e;
 color: white;
 margin:0;
+font-family: Copperplate, Papyrus;
+
 }
 .topnav {
 background-color: #f04448;
@@ -41,3 +43,32 @@ height: 1500px; /* Used in this example to enable scrolling */
 text-align: center;
 padding: 150px;
 }
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #f04448; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 350;
+    right: 640;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .hidden {
+    text-decoration: none;
+    color: transparent;
+    text-align: center;
+    padding: -10px;
+    }
+
+    .hidden:hover
+    {
+    color: white;
+    }
