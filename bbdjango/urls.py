@@ -22,5 +22,6 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('bot/', views.bot, name="bot"),
     path('commands/', views.commands, name="commands"),
-    path('test/', views.test, name="test"),
+    path('secret/', views.test, name="test"),
+    path('donate/', views.donate, name="donate"),
 ]

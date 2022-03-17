@@ -13,3 +13,6 @@ def commands(request):
 
 def test(request):
     return render(request, 'website/test.html')
+
+def donate(request):
+    return render(request, 'website/donate.html')
